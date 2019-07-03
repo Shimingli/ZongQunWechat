@@ -9,30 +9,15 @@
   height: 249px;
   background: rgba(22, 211, 129, 1);
 }
-.bg{
+
+.bg {
   display: block;
   width: 100%;
 }
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin-top: 40rpx;
-  border-radius: 50%;
-}
 
-.userinfo-nickname {
-  color: #aaa;
-}
 
-.userinfo-text-datamg {
-  width: 210px;
-  height: 20px;
-  font-size: 14px;
-  font-family: PingFangSC-Regular;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 1);
-  line-height: 20px;
-}
+
+
 
 .usermotto {
   margin-top: 20px;
@@ -42,11 +27,6 @@
   min-height: 100%;
 }
 
-.container {
-  min-height: 100%;
-  background-color: #f4f4f4;
-  font-size: 24rpx;
-}
 
 .user-header {
   display: flex;
@@ -100,8 +80,7 @@
   border-radius: 5%;
 }
 
-
-.userbox .userinfo .userinfo-text .userinfo-nickname {
+userinfo-text .userinfo-nickname {
   width: 108px;
   height: 25px;
   font-size: 18px;
@@ -169,16 +148,68 @@
   color: #333;
 }
 
-
-.evaluationContentItemLayout{
+.evaluationContentItemLayout {
   width: 100%;
-
-height: auto;
-
-/* position: static; */
+  height: auto;
+  /* position: static; */
 }
+
 .img {
-  width: 40px;
-  height: 40px;
-  margin: 5px auto;
+  width: 100%;
+  height: 281px;
+}
+
+.bg {
+  width: 100%;
+  height: 281px;
+  /* background-image: url('../images/mian/bj-sy.png'); */
+}
+.topview{
+  position: relative;
+   width: 100%;
+  height: 281px;
+  /* background: rebeccapurple; */
+  /* background-image: url('../images/mian/bj-sy.png'); */
+}
+.blackIamge{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 0px;
+  height: 100%;
+  z-index: 11
+}
+/* display:flex将view设置为弹性布局，flex-direction: row设置布局的方向是纵向垂直布局。 */
+.user-header {
+  display: flex;
+  padding-top: 1px;
+  width: 100%;
+  height: 310px;
+  flex-direction: column;  
+  align-content: center; 
+  background-color: #fd0;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: auto 100%;
+
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin-top: 40rpx;
+  border-radius: 50%;
+}
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.userinfo-text-datamg {
+  width: 210px;
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 20px;
 }
