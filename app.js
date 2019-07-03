@@ -34,6 +34,8 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    name:"shiming",
+    loacolNum:110
   }
 })

@@ -1,14 +1,22 @@
 /**index.wxss**/
+
 .userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  align-content: center;
+  height: 249px;
+  background: rgba(22, 211, 129, 1);
 }
-
+.bg{
+  display: block;
+  width: 100%;
+}
 .userinfo-avatar {
   width: 128rpx;
   height: 128rpx;
-  margin: 20rpx;
+  margin-top: 40rpx;
   border-radius: 50%;
 }
 
@@ -16,6 +24,161 @@
   color: #aaa;
 }
 
+.userinfo-text-datamg {
+  width: 210px;
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 20px;
+}
+
 .usermotto {
-  margin-top: 200px;
+  margin-top: 20px;
+}
+
+.page {
+  min-height: 100%;
+}
+
+.container {
+  min-height: 100%;
+  background-color: #f4f4f4;
+  font-size: 24rpx;
+}
+
+.user-header {
+  display: flex;
+  padding-top: 1px;
+  width: 100%;
+  height: 310rpx;
+  align-content: center;
+  background-color: #fd0;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: auto 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.userbox {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300rpx;
+  align-items: center;
+  justify-content: center;
+}
+
+.userbox .userinfo {
+  display: flex;
+  flex-direction: column;
+  width: 750rpx;
+  z-index: 100;
+  margin-top: 100rpx;
+  align-items: center;
+  justify-content: center;
+}
+
+.userbox .userinfo .userinfo-avatar {
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+  margin: 20rpx 0;
+  border: 5rpx solid #e00;
+  border-radius: 50%;
+}
+
+.userbox .userinfo .userinfo-avatar-no {
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+  margin: 20rpx 0;
+  border: 5rpx solid #eee;
+  border-radius: 5%;
+}
+
+
+.userbox .userinfo .userinfo-text .userinfo-nickname {
+  width: 108px;
+  height: 25px;
+  font-size: 18px;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  line-height: 25px;
+}
+
+.userbox .userInfoMask {
+  width: 100%;
+  height: 3500rpx;
+  z-index: 1;
+  position: relative;
+  bottom: 0rpx;
+  border-top-left-radius: 70%;
+  border-top-right-radius: 70%;
+  background-color: #f00;
+}
+
+.phoneNumber {
+  align-items: center;
+  font-size: 24rpx;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+
+.pin-phoneNumber {
+  align-items: center;
+  margin-bottom: 20rpx;
+  padding: 0 10rpx;
+  font-size: 20rpx;
+  color: #f57;
+  background-color: #ffe8ee;
+  border-radius: 1% solid #ffe8ee;
+}
+
+.userbox .my-sign {
+  position: absolute;
+  top: 10rpx;
+  right: 30rpx;
+  z-index: 100;
+  margin-top: 20rpx;
+  font-size: 24rpx;
+}
+
+.h-contents {
+  z-index: 100;
+  width: 100%;
+  height: 125rpx;
+  margin-bottom: 20rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.h-contents .a-item {
+  width: 27%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24rpx;
+  color: #333;
+}
+
+
+.evaluationContentItemLayout{
+  width: 100%;
+
+height: auto;
+
+/* position: static; */
+}
+.img {
+  width: 40px;
+  height: 40px;
+  margin: 5px auto;
 }
