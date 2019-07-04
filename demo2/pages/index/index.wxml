@@ -1,29 +1,86 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="user-header" style="background-image: url('/images/mian/bj-sy.png');">
 
-    <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-    <view style='width:300rpx;height:18px'></view>
+  <view class="user-all-class">
 
-    <text class="userinfo-text">{{userInfo.nickName}}</text>
 
-    <text class="userinfo-text-datamg">{{dataMsg}}</text>
+    <view class="user-header" style="background-image: url('/images/mian/bj-sy.png');">
+
+      <view class="userinfo-avatar-bottom">
+
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+
+        <image src='/images/allimage/txbs-dyx.png' class="userinfo-avatar-logo" style='margin-bottom:1px;'></image>
+
+
+        <view style='width:300rpx;height:10px'></view>
+
+        <text class="userinfo-text">{{userInfo.nickName}}</text>
+
+
+        <text class="text-location">杭州下沙</text>
+
+        <text class="text-location">这个人太懒，什么都没写哦~</text>
+
+      </view>
+
+
+    </view>
+
+
+    <view class='order-navbar'>
+
+      <!-- <view class="order-navbar-bg">
+          </view> -->
+      <view class="asset">
+        <view class='item' bindtap='goAsset'>
+
+          <image src='/images/allimage/icon-xx@2x.png' class='item-src-bg'></image>
+          <view>凭证</view>
+        </view>
+        <view class='item right' bindtap='goAsset'>
+          <image src='/images/allimage/icon-xx@2x.png' class='item-src-bg'></image>
+          <view>凭证</view>
+        </view>
+        <view class='item right' bindtap='goScore'>
+          <image src='/images/allimage/icon-xx@2x.png' class='item-src-bg'></image>
+          <view>凭证</view>
+        </view>
+        <view class='item right' bindtap='goScore'>
+          <image src='/images/allimage/icon-xx@2x.png' class='item-src-bg'></image>
+          <view>凭证</view>
+        </view>
+
+      </view>
+
+      <view class="asset">
+        <view class='item' bindtap='goAsset'>
+
+          <image src='/images/allimage/icon-xx@2x.png' class='item-src-bg'></image>
+          <view>我的接力</view>
+        </view>
+        <view class='item right' bindtap='goAsset'>
+          <image src='/images/allimage/icon-xx@2x.png' class='item-src-bg'></image>
+          <view>我的足迹</view>
+        </view>
+        <view class='item right' bindtap='goScore'>
+          <image src='/images/allimage/icon-xx@2x.png' class='item-src-bg'></image>
+          <view>数据统计</view>
+        </view>
+        <view class='item right' bindtap='goScore' style=' display: none; '>
+          <image src='/images/allimage/icon-xx@2x.png' class='item-src-bg'></image>
+          <view>数据统计</view>
+        </view>
+
+
+      </view>
+    </view>
+
+
+    <view style='height:10rpx;'></view>
+
+
 
   </view>
-
-
-
-
-
-
-
-
-  <view style='height:10rpx;'></view>
-
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-
-  <van-button type="primary">按钮</van-button>
 
 </view>
