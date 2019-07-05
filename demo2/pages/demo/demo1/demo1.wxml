@@ -1,0 +1,10 @@
+<!--pages/demo/demo1/demo1.wxml-->
+<text>pages/demo/demo1/demo1.wxml</text>
+
+<view style="text-align:center"> {{title}} </view>
+<view> 点击左上角返回回到之前页面 </view>
+<view class="page-body">
+  <view class="page-body-wrapper">
+    <canvas canvas-id="canvas" class="canvas"></canvas>
+  </view>
+</view>
