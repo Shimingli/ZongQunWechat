@@ -1,15 +1,17 @@
 {
   "pages": [
+    "pages/demo/Demo",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/demo/demo1/demo1",
+    "pages/demo/demo2/demo2"
   ],
   "window": {
     "navigationBarBackgroundColor": "#fd0",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "ZQ",
     "backgroundColor": "#ff0",
-    "backgroundTextStyle": "dark",
-    "navigationStyle":"custom"
+    "backgroundTextStyle": "dark"
   },
   "permission": {
     "scope.userLocation": {
@@ -19,6 +21,26 @@
   "networkTimeout": {
     "request": 10000,
     "downloadFile": 10000
+  },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#e64340",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/demo/Demo",
+        "iconPath": "images/allimage/icon-xx@2x.png",
+        "selectedIconPath": "images/allimage/icon-xx@2x.png",
+        "text": "Demo"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/allimage/icon-xx@2x.png",
+        "selectedIconPath": "images/allimage/icon-xx@2x.png",
+        "text": "首页"
+      }
+    ]
   },
   "debug": true,
   "sitemapLocation": "sitemap.json"

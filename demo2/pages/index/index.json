@@ -3,6 +3,6 @@
     "van-button": "/dist/button/index"
   },
   "navigationBarTitleText": "个人中心",
-  "navigationBarBackgroundColor": "#ffdd00"
-
-}
+  "navigationBarBackgroundColor": "#ffdd00",
+  "navigationStyle": "custom"
+} 
