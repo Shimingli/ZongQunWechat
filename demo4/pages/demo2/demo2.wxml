@@ -1,0 +1,25 @@
+<!--pages/demo2/demo2.wxml-->
+<view>
+
+<text>{{msg}}</text> 
+
+<view>{{person.name}}</view>
+
+<view data-id='{{dataID}}'>dataID</view>
+
+
+<checkbox checked='{{false}}'></checkbox>
+<checkbox checked='true'></checkbox>
+
+
+<checkbox checked='{{isCheck}}'></checkbox>
+
+<view>{{1+10}}</view>
+
+<view>{{num+num2}}||{{msg+msg}}</view>
+
+
+<view >
+<checkbox checked='num3>=20?true:false'></checkbox>
+</view>
+</view>

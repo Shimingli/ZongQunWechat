@@ -1,0 +1,27 @@
+<!--pages/demo3/demo3.wxml-->
+<text>pages/demo3/demo3.wxml</text>
+<view wx:for="{{arr}}" wx:key="{{index}}">
+  {{index}}:{{item}}
+</view>
+
+<view wx:for="ME" wx:key="index">
+{{index}}----{{item}}
+</view>
+
+<view wx:for="Person">
+{{index}}----{{item}}
+</view>
+
+<view wx:for="{{Person}}" wx:key="index" wx:for-index="key">
+{{key}}----{{item}}
+</view>
+
+
+<block wx:for="{{Person}}" wx:key="index" wx:for-index="key">
+{{key}}block{{item}}
+</block>
+
+<block wx:for="{{[1, 2, 3]}}">
+  <view> {{index}}:woshi haha </view>
+  <view> {{item}} </view>
+</block>
