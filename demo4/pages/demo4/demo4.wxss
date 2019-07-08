@@ -1,0 +1,25 @@
+/* pages/demo4/demo4.wxss */
+@import "../../style/box.wxss";
+
+.box{
+  width: 50px;
+  height: 50px;
+   font-size: 100px;
+  background: darkblue
+}
+.box1{
+  width: 50rpx;
+  height: 50rpx;
+  font-size: 100rpx;
+  background: darkblue
+}
+.classMe{
+  height: 100rpx;
+  width: 100rpx;
+  font-size: 200rpx;
+  background: rebeccapurple
+}
+
+view{
+  background: content-box
+}

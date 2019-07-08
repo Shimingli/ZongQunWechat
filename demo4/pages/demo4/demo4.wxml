@@ -1,0 +1,9 @@
+<!--pages/demo4/demo4.wxml-->
+<text>pages/demo4/demo4.wxml</text>
+<!-- <view class="box">haha</view>
+<view class="box1">hah</view>
+<view class="box2">box2</view> -->
+
+<view style='background:red'>style</view>
+
+<view class='{{Me}}'>classMe</view>

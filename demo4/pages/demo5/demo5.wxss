@@ -1,0 +1,5 @@
+/* pages/dem{o5/demo5.wxss */
+.hover_class{
+  background-color: rebeccapurple;
+  opacity:.5 ;
+}
