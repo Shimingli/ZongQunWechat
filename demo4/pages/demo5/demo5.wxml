@@ -1,5 +1,12 @@
 <!--pages/demo5/demo5.wxml-->
-<view hover-class='hover_class'>
+<view class='hover_class'>
 dianwo
 </view>
-<text>pages/demo5/demo5.wxml</text>
+
+<view class='hover_class1'>
+ 我是Demo
+</view>
+
+<view class='hover_class1'>
+ 我是Demo
+</view>
